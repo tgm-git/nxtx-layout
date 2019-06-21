@@ -1,0 +1,17 @@
+{
+  "name": "nxtx-layout",
+  "version": "0.1.0",
+  "description": "A layout package for NxTx",
+  "main": "index.js",
+  "author": "Thomas Gwynfryn McCollin",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.15.6",
+    "rollup-plugin-terser": "^5.0.0"
+  },
+  "scripts": {
+    "build": "rollup --config rollup.config.js --environment NODE_ENV:production",
+    "dev": "rollup --watch --config rollup.config.js --environment NODE_ENV:development"
+  },
+  "dependencies": {}
+}
